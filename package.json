@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/css/tailwind.css",
+    "dev": "postcss css/tailwind.css -o public/build/css/tailwind.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
